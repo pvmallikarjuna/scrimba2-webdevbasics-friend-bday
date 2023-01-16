@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#6a4c93,#ffb3c6);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://media.istockphoto.com/id/1282009135/photo/sweet-exhibition-booth-blank-gift-box-stand-with-pink-pastel-color-ribbon-bow-isolated-on.jpg?s=612x612&w=0&k=20&c=HR91IGbub3JtQ9a2c_eWOV1hwqYp74E02cfVmz4n3f8=");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/31lPv5L3aIvTi/giphy.gif");
+}
+
+#gift-img-hot {
+    background-image: url("https://media.giphy.com/media/JwLY4ToQwe4yA/giphy.gif");
+}
+
+#gift-img-genius {
+    max-width:750px;
+    height: 500px;
+    background-image: url("https://media.giphy.com/media/3o6ozhYtCPpebG68IE/giphy.gif");
+}
+
+#gift-img-badass {
+    background-image: url("https://media.giphy.com/media/VsdUBY6nOZPyw/giphy.gif");
+}
+
+#gift-img-cheers {
+    background-image: url("https://media.giphy.com/media/3oFzmbMSg8a5h5IRcQ/giphy.gif");
+    height: 400px;
+    max-width:750px;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
